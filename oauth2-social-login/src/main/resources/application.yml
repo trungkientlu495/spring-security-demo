@@ -1,0 +1,16 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: Ov23lia57gdG7l20vxJP
+            clientSecret: 55f746dd5d88d92b94e32fcb43c952eefa13ebbb
+            scope: read:user,user:email
+            redirect-uri: http://localhost:8000/login/oauth2/code/github
+          google:
+            clientId: 700086744673-keplb3hc6ere9uiqddg4aleho4i08g37.apps.googleusercontent.com
+            clientSecret: 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
+
+server:
+  port: 8000
